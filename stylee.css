@@ -8,7 +8,7 @@
 /* Global styles */
 body {
     font-family: 'Pacifico', cursive; /* Fixed font-family value */
-    background-color: #ffffff; /* Light background color */
+    background-color: #00000000; /* Light background color */
 }
 
 .container {
@@ -25,7 +25,7 @@ body {
 .catagory h2 {
     font-size: 58px;
     margin-bottom: 100px;
-    background-color: #ffbbcc; /* Light pink background for heading */
+    background-color: #010038; /* Light pink background for heading */
     color: #000000; /* Black text color */
     padding: 80px 80px; /* Add padding for heading */
     border-radius: 10px; /* Rounded corners */
