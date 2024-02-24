@@ -1,95 +1,81 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Global styles */
 body {
-    font-family: 'Pacifico', cursive;
-    background-color: #ffffff;
+    font-family: 'Pacifico', cursive; /* Fixed font-family value */
+    background-color: #e3dddf; /* Light background color */
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0 20px;
 }
 
 .catagory {
-    padding: 40px 0;
+    padding: 0px 0;
     text-align: center;
 }
 
 .catagory h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
-    background-color: #ffbbcc;
-    color: #000000;
-    padding: 40px 20px;
-    border-radius: 10px;
-    font-family: "Kaushan Script", cursive;
+    font-size: 58px;
+    margin-bottom: 100px;
+    background-color: #000000; /* Light pink background for heading */
+    color: #ffffff; /* Black text color */
+    padding: 80px 80px; /* Add padding for heading */
+    border-radius: 10px; /* Rounded corners */
+    font-family: "Anta", sans-serif;
+       /* Apply Mission Script font */
 }
 
 .catagory .container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    justify-content: center; /* Horizontally center the container */
 }
 
 .catagory .catagory {
-    width: calc(50% - 40px);
-    margin: 20px;
-    padding: 20px;
-    background-color: #FFE0E9;
-    border: 2px solid #FFE0E9;
-    border-radius: 15px;
-    transition: transform 0.3s ease;
+    width: 400px; /* Increased width for larger categories */
+    margin: 20px; /* Adjust margin for spacing between categories */
+    padding: 40px; /* Increased padding for better spacing */
+    background-color: #000000; /* Light purple background for categories */
+    border: 2px solid #000000; /* Border color */
+    border-radius: 15px; /* Rounded corners */
+    transition: transform 0.3s ease; /* Smooth transition effect */
 }
 
 .catagory .catagory:hover {
-    transform: translateY(-5px);
+    transform: translateY(-5px); /* Move up slightly on hover */
 }
 
 .catagory .catagory img {
-    max-width: 100%;
-    margin-bottom: 10px;
-    max-height: 200px;
+    max-width: 300px; /* Adjusted width for all images */
+    height: 300px; /* This maintains aspect ratio */
+    margin-bottom: 20px;
 }
 
 .catagory .catagory h3 {
-    font-size: 12px;
+    font-size: 24px;
+    font-stretch: 90px;
     margin-bottom: 10px;
-    color: #000000;
+    color: #ffffff; /* Pink color for category headings */
 }
 
 .catagory .catagory a {
     display: inline-block;
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #000000; /* Pink background for links */
+    color: #b6b6b6;
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-    font-family: "Kaushan Script", cursive;
+ font-family: "Anta", sans-serif;;
 }
 
 .catagory .catagory a:hover {
-    background-color: #555;
+    background-color: #ffffff;
 }
 
 footer {
     background-color: #333;
-    color: #fff;
+    color: #0a0a0a;
     text-align: center;
     padding: 20px 0;
-}
-
-  
-
-/* Adjustments for responsive layout */
-@media (max-width: 1000px) {
-    .catagory .catagory {
-        width: calc(50% - 40px);
-    }
 }
