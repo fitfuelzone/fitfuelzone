@@ -8,7 +8,7 @@
 /* Global styles */
 body {
     font-family: 'Pacifico', cursive; /* Fixed font-family value */
-    background-color: #00000000; /* Light background color */
+    background-color: #"black"; /* Light background color */
 }
 
 .container {
