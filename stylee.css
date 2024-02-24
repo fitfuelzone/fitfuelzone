@@ -43,8 +43,8 @@ body {
     width: 400px; /* Increased width for larger categories */
     margin: 20px; /* Adjust margin for spacing between categories */
     padding: 40px; /* Increased padding for better spacing */
-    background-color: #ffbbcc; /* Light purple background for categories */
-    border: 2px solid #ffbbcc; /* Border color */
+    background-color: #"black"; /* Light purple background for categories */
+    border: 2px solid #"white"; /* Border color */
     border-radius: 15px; /* Rounded corners */
     transition: transform 0.3s ease; /* Smooth transition effect */
 }
